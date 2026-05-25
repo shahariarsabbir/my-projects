@@ -1,0 +1,33 @@
+html,
+body {
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+}
+/* nav-section */
+.navbar {
+	align-items: center;
+	margin: 0 auto;
+	display: flex;
+	/* justify-content: center; */
+	position: sticky;
+	top: 20px;
+	z-index: 1000;
+	gap: 20px;
+}
+.navbar a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+.push {
+	margin-left: auto;
+}
+
+/* main-content */
+.main-content {
+	padding: 20px;
+}
