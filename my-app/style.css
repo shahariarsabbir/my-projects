@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+}
+.header-section {
+  padding: 20px 0;
+  color: rgb(252, 249, 249);
+  background: rgba(255, 0, 0, 0.76);
+}
+.container {
+  margin: auto;
+  width: 900px;
+  display: flex;
+}
+.logo {
+  width: 20%;
+}
+.logo h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.logo span {
+  display: block;
+  font-weight: 600;
+}
+nav {
+  width: 80%;
+  margin-left: 140px;
+}
+nav ul {
+  display: flex;
+  justify-content: end;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: rgb(10, 10, 10);
+  font-weight: 500;
+}
+/* banner-section */
+img {
+}
+.event {
+  padding: 22px;
+}
+.event h1 {
+  padding: 19px;
+  font-size: 44px;
+  font-style: italic;
+  color: rgb(129, 100, 100);
+  margin: auto;
+}
+
+/* card-section */
+.feature {
+  text-align: center;
+  padding: 18px;
+  background-color: rgba(35, 185, 185, 0.459);
+  border-radius: 5px;
+  width: 45%;
+}
+.feature h3 {
+  padding: 14px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feature p {
+  padding: 14px;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  box-shadow: 2px gray;
+  object-fit: cover;
+}
+.feature a {
+  color: rgb(255, 249, 248);
+  font-size: 19px;
+  text-decoration: none;
+  background-color: tomato;
+  /* padding: 3px; */
+  border-radius: 5px;
+}
+/* footeer-section */
+.footeer-container {
+  width: 100%;
+  margin: auto;
+  padding: 16px;
+  background-color: rgb(56, 55, 54);
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 50px;
+}
+.footeer-section {
+  width: 100%;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+.footeer-section h3 {
+  color: blueviolet;
+}
+.footeer-section span {
+  color: rgb(172, 35, 35);
+}
+.dom {
+  width: 100%;
+  min-height: 100vh;
+  filter: blur(0px);
+}
+.loading-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: black;
+  z-index: 1000;
+}
